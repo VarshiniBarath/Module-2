@@ -25,19 +25,19 @@ To write a Python program to check if a number is a Perfect number using the con
 #Reg.No: 212222090028
 #Name: Varshini R
 
-def result(a, b):
-    d = a % b
-    print(f"Modulo is {d}")
-
-a = int(input())
-b = int(input())
-result(a, b)
-
-
+n=int(input())
+sum1=0
+for i in range(1, n):
+    if(n % i == 0):
+        sum1 = sum1 + i
+if(sum1 == n):
+    print("The number is a Perfect number!")
+else:
+    print("The number is not a Perfect number!")
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/944b20cb-654e-49d5-8a95-203f9aeaa670)
+<img width="1149" height="277" alt="image" src="https://github.com/user-attachments/assets/e721a9e5-a268-4196-bef0-2b595f38f761" />
 
 ### RESULT
-Thus the program to define a function that accepts two values and returns their modulo value has been implemented and executed successfully.
+Thus a Python program to check if a number is a Perfect number using the concept of functions was executed and implemented successfully.
 
