@@ -23,6 +23,8 @@ To write a Python program to check the relation between two numbers — whether 
 
 ### PROGRAM
 
+```
+
 compare = lambda a, b: (
     f"{a} is greater than {b}" if a > b 
     else (f"{a} is smaller than {b}" if a < b 
@@ -39,4 +41,4 @@ print(compare(input1, input2))
 
 
 ### RESULT
-Thus the program to check the relation between two number using lambda function has been implemented and executed successfully.
+Thus the program to check the relation between two number using lambda function has been implemented and executed successfully
